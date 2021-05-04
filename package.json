@@ -9,6 +9,7 @@
   "author": "sharmakartikey54@gmail.com",
   "license": "ISC",
   "dependencies": {
+    "@walkover/msg91": "^0.1.2",
     "axios": "^0.21.1",
     "cron": "^1.8.2",
     "csv-parser": "^3.0.0",

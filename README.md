@@ -22,6 +22,13 @@ MSG91_API_KEY=XXXXXXXXXXXXXXXXXXXX
 \
 MSG91_SENDER_ID=XXXX
 \
+DLT_TE_ID=XXXXXXXXXXXXX
+\
+SMS_TEMPLATE="Vaccine available at your pincode {{pincode}}:\n{{centers}}\n\nRegister at https://selfregistration.cowin.gov.in"
+\
+\
+Please note that you will have to create an account on MSG91, add transactional credits and register DLT template to send SMSs. You can disable SMS functionality by setting ENABLE_MSG91_SMS to 0
+\
 \
 Step 3) Create a data file called data.csv in root of the project as per the following template
 \
