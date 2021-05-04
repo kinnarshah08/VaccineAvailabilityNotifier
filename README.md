@@ -9,18 +9,27 @@ https://support.google.com/accounts/answer/185833?p=InvalidSecondFactor&visit_id
 \
 Step 2) Create a .env file as per the following template
 \
+\
 ENABLE_EMAIL=1
+\
 ENABLE_MSG91_SMS=1
+\
 SENDER_EMAIL=your@email.com
+\
 EMAIL_APPLICATION_PASSWORD=XXXXXXXXXX
+\
 MSG91_API_KEY=XXXXXXXXXXXXXXXXXXXX
+\
 MSG91_SENDER_ID=XXXX
 \
 \
 Step 3) Create a data file called data.csv in root of the project as per the following template
 \
+\
 email,phone,pincode,age
+\
 someemail@domain.com,91987654321,380013,32
+\
 someotheremail@domain.com,919988776655,380014,54
 \
 \
